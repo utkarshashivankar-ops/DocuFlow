@@ -1,0 +1,7 @@
+Flask>=3.0,<4
+pytesseract>=0.3.10
+Pillow>=10.1
+PyMuPDF>=1.24
+python-dateutil>=2.9
+gunicorn>=22.0; platform_system != "Windows"
+waitress>=3.0; platform_system == "Windows"
